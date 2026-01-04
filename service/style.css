@@ -88,3 +88,141 @@ body { font-family:'Inter', sans-serif; line-height:1.6; background:var(--light-
     .header-container { flex-direction:column; gap:15px; }
     .main-nav { justify-content:center; gap:10px; }
 }
+/* ================= MOBILE ADAPTATION ================= */
+@media (max-width: 480px) {
+
+    /* HEADER */
+    .header {
+        padding: 12px 15px;
+    }
+
+    .logo {
+        max-height: 42px;
+    }
+
+    .logo-address {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .contact-info {
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .main-nav a {
+        font-size: 14px;
+    }
+
+    .btn-accent {
+        width: 100%;
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 90px 15px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero button {
+        width: 100%;
+        padding: 16px;
+        font-size: 18px;
+        border-radius: 14px;
+    }
+
+    /* SECTIONS */
+    .section {
+        padding: 60px 15px;
+    }
+
+    .section h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* CARDS */
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        padding: 25px;
+        text-align: center;
+    }
+
+    /* SERVICES */
+    .card-service {
+        min-height: 220px;
+    }
+
+    .card-service h3 {
+        font-size: 18px;
+    }
+
+    .card-service p {
+        font-size: 14px;
+    }
+
+    /* PRICES */
+    .section-prices {
+        padding: 60px 15px;
+        border-radius: 25px;
+    }
+
+    .card-price {
+        padding: 25px;
+    }
+
+    .card-price .amount {
+        font-size: 22px;
+    }
+
+    /* POPUP FORM */
+    .popup-content {
+        padding: 20px;
+    }
+
+    .popup-content h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .popup-content input,
+    .popup-content textarea {
+        font-size: 15px;
+    }
+
+    .popup-content button {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    /* MAP */
+    .section-map iframe {
+        height: 260px;
+    }
+
+    /* FOOTER */
+    .footer {
+        font-size: 13px;
+        padding: 20px 10px;
+    }
+}
